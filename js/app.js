@@ -10,6 +10,6 @@ document.getElementById("login").addEventListener("click", function () {
   if (userEmail == "admin@email.com" && userPassword == "Admin") {
     window.location.href = "banking.html";
   } else {
-    console.log("wrong password");
+    alert("wrong password");
   }
 });
